@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link the JS file</title>
+    <script>console.log("Head Internal JS");</script>
+    <script src="javascript1.js"></script>
+</head>
+<body>
+
+    <script>console.log("Body Top Internal JS");</script>
+    <script src="javascript2.js"></script>
+
+    <h1>Link JS File</h1>
+    <button onclick="console.log('Inside the Element JS')">Inside JS</button>
+
+    <script>console.log("Body Bottom Internal JS");</script>
+    <script src="javascript3.js"></script>
+    
+</body>
+</html>
