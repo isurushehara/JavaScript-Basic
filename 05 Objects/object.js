@@ -5,7 +5,7 @@ let person = {
     Iam : function() {
         console.log("I am " + this.name);
     }
-};
+}
 
 //PRINT THE OBJECT
 console.log(person);
