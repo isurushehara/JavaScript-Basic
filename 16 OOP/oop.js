@@ -34,9 +34,12 @@ const student2 = {
     lastName: "Shehara"
 }
 
+//CALL
 student1.fullName.call(student2, "* ", ".");
 
+//APPLY
 student1.fullName.apply(student2, ["* ", "."]);
 
+//BIND
 let myFunction = student1.fullName.bind(student2, "* ", ".");
 myFunction();
